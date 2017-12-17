@@ -1,0 +1,79 @@
+name: FMTabList
+main: com.firesoftitan.play.fmtablist.FMTabList
+dev-url: http://www.firesoftitan.com
+version: 1.0.0
+authors: [freethemice]
+depend: [Slimefun]
+softdepend: [CS-CoreLib, SlimefunLuckyBlocks]
+commands:
+   lbt:
+      description: Used to do lbt
+      usage: /<command>
+   fmt:
+      description: Used to do fmt
+      usage: /<command>
+   emailout:
+      description: Used to do emailout
+      usage: /<command>
+   fmsf:
+      description: Used to do emailout
+      usage: /<command>
+   setvote:
+      description: Used to do setvote
+      usage: /<command>
+   givetitanbook:
+      description: Used to do givetitanbook
+      usage: /<command>
+   backups:
+      description: Used to do backups
+      usage: /<command>
+   viewbackups:
+      description: Used to do viewbackups
+      usage: /<command>
+   givewarpkey:
+      description: Used to do givebosskey
+      usage: /<command>
+   buyland:
+      description: buy land
+      usage: /<command>
+   fmtcrate:
+      description: buy land
+      usage: /<command>
+   fmtpermissions:
+      description: buy land
+      usage: /<command>
+   settreasure:
+      description: Used to do setvote
+      usage: /<command>
+   setplacement:
+      description: Used to do setvote
+      usage: /<command>
+   setevent:
+      description: Used to do setvote
+      usage: /<command>
+   rollheads:
+      description: Used to do rollheads
+      usage: /<command>
+   startevent:
+      description: Used to do startevent
+      usage: /<command>
+
+
+
+
+permissions:
+  FMTabList.lbt:
+    description: Gives access to lbt commands
+    default: op
+  FMTabList.pm:
+    description: Gives access to pm commands
+    default: op
+  FMTabList.email:
+    description: Gives access to emailout commands
+    default: op
+  FMTabList.fmsf:
+    description: Gives access to fmsf commands
+    default: op
+  FMTabList.setvote:
+    description: Gives access to setvote commands
+    default: op
